@@ -1,0 +1,34 @@
+1.Download dan Install Git
+2.Buat Akun  Github
+3.Klik profile paling pojok kanan lalu plih your repositories
+lalu klik new 
+4.Buka Project lalu klik kanan projetc tersebut
+ kemudian pilih git bash here   
+
+5.ketik git config --global user.name  " ..." ( user name akun github anda )
+6.ketik git config --global user.email   " .... " (email akun github anda)
+7.ketik git init
+8.git status
+9.git add . atau git add
+10.git commit -m "P"  (yang  didalam tanda kutip ini di isi terserah anda)
+11.git remote add origin  https: .........
+12.git push -u origin master
+
+
++++ git remote set-url origin  https: .........   (buat mengubah path)
++++ git remote --verbose                          (cek path)
++++ git checkout 54N6k4 -- namaFile.extension     (jika mau mengembalikan ke commit sebelumnya)
++++ git commit -am "infomasi"                     (setelah statusnya modified)  
++++ git log                                       (buat melihat history commit yg pernah dilakukan)
++++ git branch <nama_branch>                      (membuat branch - menulisnya tanpa <>)
++++ git branch                                    (klo git branch aja nanti muncul ada branch apa aja)
++++ git log --all --decorate --oneline --graph     
++++ alias graph="git log --all --decorate --oneline --graph"
++++ git checkout <nama_branch>                    (pindah branch - menulisnya tanpa <>)
++++ git branch --merged                           (untuk tau branch apa yang sudah di branch)
++++ git branch -d <nama_branch_yang_mau_dihapus>
++++ git clone https: .....                        (untuk me-remote dari github)   
++++ git config --list                             (cara cek nama dan email) ->buat keluarnya ketik :q
++++ git push                                      (kalo graph-nya maju satu dari origin yang di remote github)
++++ git fetch                                     (buat ngecek di remote udh sama apa blm dengan yg di local) setelah itu git status
++++ git pull                                      (menyambil file dari repo github, biasanya saat terjadi konflik)
