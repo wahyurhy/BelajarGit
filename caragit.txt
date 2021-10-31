@@ -32,3 +32,5 @@ lalu klik new
 +++ git push                                      (kalo graph-nya maju satu dari origin yang di remote github)
 +++ git fetch                                     (buat ngecek di remote udh sama apa blm dengan yg di local) setelah itu git status
 +++ git pull                                      (menyambil file dari repo github, biasanya saat terjadi konflik)
++++ git diff <namafile.extension>                 (cara liat perbedaan sebelum di git add .)
++++ git merge <nama_branch_yg_mau_di_merge>
