@@ -1,3 +1,5 @@
+Catatan dan sintaks dalam git:
+
 1.Download dan Install Git
 2.Buat Akun  Github
 3.Klik profile paling pojok kanan lalu plih your repositories
