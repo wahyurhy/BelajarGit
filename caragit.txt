@@ -34,3 +34,13 @@ lalu klik new
 +++ git pull                                      (menyambil file dari repo github, biasanya saat terjadi konflik)
 +++ git diff <namafile.extension>                 (cara liat perbedaan sebelum di git add .)
 +++ git merge <nama_branch_yg_mau_di_merge>
+
+-------------------------- IF YOU WANT TO PULL IN TERMINAL ANDROID STUDIO
+git status
+git commit -am "commit message"
+git pull origin main
+(merge conflict)
+(resolved)
+git commit -am "merge message" (commit merge)
+git push origin main
+git push origin other branch
