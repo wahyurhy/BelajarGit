@@ -45,6 +45,12 @@ git commit -am "merge message" (commit merge)
 git push origin main
 git push origin other branch
 
+git fetch git://github.com/user/project.git
+git cherry-pick <SHA-COMMIT-ID> | contoh:
+git fetch https://github.com/riosaputra17/WebSliderPro.git
+git cherry-pick 227840ad67bc366588a574771f53cac529c1c2d8
+git remote add upstream url <<ini kalo upstreamnya blm ada>>
+
 !!!!!!!!!!!!!!!!!! DANGER AREA !!!!!!!!!!!!!!!!!!!!!
 # This will destroy any local modifications.
 # Don't do it if you have uncommitted work you want to keep.
