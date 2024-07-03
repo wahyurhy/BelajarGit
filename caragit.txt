@@ -24,6 +24,7 @@ lalu klik new
 +++ git branch                                    (klo git branch aja nanti muncul ada branch apa aja)
 +++ git log --all --decorate --oneline --graph     
 +++ alias graph="git log --all --decorate --oneline --graph"
+    tinggal ketik aja graph nanti aja muncul graphnya
 +++ git checkout <nama_branch>                    (pindah branch - menulisnya tanpa <>)
 +++ git branch --merged                           (untuk tau branch apa yang sudah di branch)
 +++ git branch -d <nama_branch_yang_mau_dihapus>
