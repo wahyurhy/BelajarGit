@@ -34,6 +34,9 @@ lalu klik new
 +++ git pull                                      (menyambil file dari repo github, biasanya saat terjadi konflik)
 +++ git diff <namafile.extension>                 (cara liat perbedaan sebelum di git add .)
 +++ git merge <nama_branch_yg_mau_di_merge>
++++ git log                                       (untuk melihat semua commit yang pernah dilakukan)
++++ git log -3                                    (untuk melihat 3 commit terakhir)
++++ git log -- (namafilenya)                      (untuk melihat log dari file yang diinginkan)
 
 -------------------------- IF YOU WANT TO PULL IN TERMINAL ANDROID STUDIO
 git status
