@@ -26,7 +26,7 @@ lalu klik new
 +++ alias graph="git log --all --decorate --oneline --graph"
     tinggal ketik aja graph nanti aja muncul graphnya
 +++ git checkout <nama_branch>                    (pindah branch - menulisnya tanpa <>)
-+++ git branch --merged                           (untuk tau branch apa yang sudah di branch)
++++ git branch --merged                           (untuk tau branch apa yang sudah di branch, agar ketika ingin delete branchnya sudah aman)
 +++ git branch -d <nama_branch_yang_mau_dihapus>
 +++ git clone https: .....                        (untuk me-remote dari github)   
 +++ git config --list                             (cara cek nama dan email) ->buat keluarnya ketik :q
