@@ -27,7 +27,8 @@ lalu klik new
     tinggal ketik aja graph nanti aja muncul graphnya
 +++ git checkout <nama_branch>                    (pindah branch - menulisnya tanpa <>)
 +++ git branch --merged                           (untuk tau branch apa yang sudah di branch, agar ketika ingin delete branchnya sudah aman)
-+++ git branch -d <nama_branch_yang_mau_dihapus>
++++ git branch -d <nama_branch_yang_mau_dihapus>  (untuk menghapus branch yang sudah dilakukan merge)
+!!! git branch -D <nama_branch_yang_mau_dihapus>  (untuk menghapus secara paksa, walaupun belum melakukan merge)
 +++ git clone https: .....                        (untuk me-remote dari github)   
 +++ git config --list                             (cara cek nama dan email) ->buat keluarnya ketik :q
 +++ git push                                      (kalo graph-nya maju satu dari origin yang di remote github)
