@@ -17,7 +17,7 @@ lalu klik new
 
 +++ git remote set-url origin  https: .........   (buat mengubah path)
 +++ git remote --verbose                          (cek path)
-+++ git checkout 54N6k4 -- namaFile.extension     (jika mau mengembalikan ke commit sebelumnya)
++++ git checkout 54N6k4 -- namaFile.extension     (jika mau mengembalikan ke commit sebelumnya sesuai dengan file yang ingin di checkout)
 +++ git commit -am "infomasi"                     (setelah statusnya modified)  
 +++ git log                                       (buat melihat history commit yg pernah dilakukan)
 +++ git branch <nama_branch>                      (membuat branch - menulisnya tanpa <>)
