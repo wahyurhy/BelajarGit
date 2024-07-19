@@ -58,6 +58,7 @@ git cherry-pick 227840ad67bc366588a574771f53cac529c1c2d8
 git remote add upstream url <<ini kalo upstreamnya blm ada>>
 
 !!!!!!!!!!!!!!!!!! DANGER AREA !!!!!!!!!!!!!!!!!!!!!
+https://chatgpt.com/share/39220488-39dc-451a-b52f-cc96ad943ecf
 # This will destroy any local modifications.
 # Don't do it if you have uncommitted work you want to keep.
 git reset --hard 0d1d7fc32
